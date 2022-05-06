@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.menuhorizontal{
+    background-color: rgb(37, 37, 39);
+}
+.menuhorizontal ul {
+    position: fixed;
+    
+    list-style-type: none;
+    padding: 0;
+    
+    width:100% ;
+    background-color: rgb(37, 37, 39);
+
+}
+.menuhorizontal ul li{
+    display: inline;
+    
+}
+.menuhorizontal  ul li a{
+    padding: 20px;
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    transition: background .4s;
+}
+.menuhorizontal ul li a:hover{
+    background-color: rgb(24, 139, 233);
+    padding: 20px;
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    
+}
+.menuhorizontal ul ul{
+    display: none;
+    
+    position: absolute;
+}
+.menuhorizontal ul li:hover ul{
+    display: block;
+    
+}
+.menuhorizontal ul ul {
+    width: 150px;
+}
+.menuhorizontal ul ul li a{
+    display: block;
+}
+
+article {
+    padding: 16px;
+    margin-top: 30px;
+}
+
+
+
+
+.sessao {
+    section {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.flex > div{
+    flex: 1 1 200px;
+    margin: 10px;
+}
